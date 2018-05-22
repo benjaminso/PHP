@@ -101,5 +101,14 @@
     echo "<br>";
     echo current($age);
 
-    
+    //user define function
+    function sayHello(){
+        echo "Hello"."<br>";
+    }
+
+    sayHello();
+    function sayAnyWords($term){
+        echo "noi tu gi cung dc {$term}"."<br>";
+    }
+    sayAnyWords("bon nam sau");
     ?>
